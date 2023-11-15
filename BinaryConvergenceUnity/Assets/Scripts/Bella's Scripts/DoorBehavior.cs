@@ -23,23 +23,13 @@ public class DoorBehavior : MonoBehaviour
                 gameObject.SetActive(false);
             }
 
-            else if (closeTrigger)
+            //else if (closeTrigger)
             {
-                doorWing.Play("DoorClose", 0, 0.0f);
-                gameObject.SetActive(false);
+                //doorWing.Play("DoorClose", 0, 0.0f);
+                // gameObject.SetActive(false);
+                //}
             }
         }
-    }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
